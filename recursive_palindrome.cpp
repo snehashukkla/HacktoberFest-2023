@@ -39,7 +39,7 @@ int main(){
     int numEntrada = 0;
     bool resp;
 
-    //The input ends with the string 'FIM'
+    //the input ends with the string 'FIM'
     do{
         fgets(entrada[numEntrada], TAMLINHA, stdin);
     }while(isFim(entrada[numEntrada++]) == false);
